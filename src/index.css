@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TerminaW05-Bold";
+  src: local("TerminaW05-Bold"),
+    url(./fonts/Termina-W05-Bold.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  background-color: black;
+  font-family: "TerminaW05-Bold";
+}
+
+.one {
+  background: rgb(36, 164, 138);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.two {
+  background: rgb(211, 79, 79);
+}
+.three {
+  background: rgb(67, 91, 175);
+}
+.four {
+  background: lightsalmon;
+}
