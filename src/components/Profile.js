@@ -212,7 +212,7 @@ const Profile = () => {
             <section className="flex flex-col h-screen w-full justify-center items-center snap-always snap-start text-white ">
               <div className="relative w-full h-screen">
                 <div
-                  className="relative z-50 py-11 h-screen overflow-y-scroll scr-div"
+                  className="relative z-50 py-11 h-screen scr-div"
                   ref={topRef}
                   style={{ overflowY: `${scrollValue}` }}
                 >
